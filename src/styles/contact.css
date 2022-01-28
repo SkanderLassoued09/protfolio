@@ -1,0 +1,105 @@
+.contact {
+  background-color: white;
+  color: black;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactContent {
+  width: 80%;
+}
+.headingSectionContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headingSectionContact h1 {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+.headingSectionContact p {
+  text-align: center;
+}
+.contactForm {
+  display: flex;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+.imageContact,
+.form {
+  flex: 50%;
+  padding: 1.5rem;
+}
+.imageContact img {
+  width: 60%;
+  display: block;
+  margin: 0px auto;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+form label {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: solid 1px #dfdfdf;
+  border-radius: 6px;
+}
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+}
+
+form input:focus {
+  outline: none;
+}
+form textarea:focus {
+  outline: none;
+}
+form button {
+  width: 50%;
+  margin: 0px auto;
+  padding: 0.5rem;
+  background-color: #0dac50;
+  border: solid 1px transparent;
+  border-radius: 6px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #009c41;
+  transition: ease-out 1s;
+}
+
+@media screen and (max-width: 770px) {
+  .contactForm {
+    display: flex;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+    background-color: #fafafa;
+    flex-direction: column;
+  }
+}

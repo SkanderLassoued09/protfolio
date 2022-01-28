@@ -1,0 +1,144 @@
+.home {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #080942;
+  color: white;
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.socialMedia {
+  display: flex;
+  padding: 3px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.details h1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.details h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.details h3 {
+  font-weight: 400;
+}
+.details p {
+  font-weight: 300;
+}
+.details h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description,
+.photo {
+  width: 40%;
+}
+
+.socialMedia {
+  margin-bottom: 20px;
+}
+
+.socialMedia ul {
+  display: flex;
+  list-style: none;
+}
+.socialMedia li {
+  margin: 5px;
+}
+
+.socialMedia img {
+  width: 25px;
+  height: 25px;
+}
+.requiredInfo img {
+  width: 25px;
+  height: 25px;
+}
+
+.requiredInfo ul {
+  list-style: none;
+}
+
+.requiredInfo span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.requiredInfo img {
+  margin-right: 0.5rem;
+}
+.requiredInfo h4 {
+  font-weight: 400;
+}
+
+.socialMedia img:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-out;
+  z-index: 9999;
+}
+
+.photoContainer {
+  width: 70%;
+  border-radius: 50%;
+  border: double 2px white;
+  margin: 0px auto;
+}
+.photo img {
+  width: 100%;
+  border-radius: 50%;
+}
+.aboutMeParent {
+  width: 100%;
+}
+.projectsParent {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.contactParent {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 770px) {
+  .content {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  .description,
+  .photo {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .details h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+}

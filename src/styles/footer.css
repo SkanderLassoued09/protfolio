@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 110px;
+  background-color: #080942;
+  color: white;
+  padding: 1.5rem;
+}
+.myName {
+  margin-bottom: 2rem;
+}
+.myName h4 {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.myName span {
+  font-weight: 700;
+  text-align: justify;
+}
